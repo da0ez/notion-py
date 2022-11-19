@@ -19,13 +19,13 @@ install_requires = get_requirements("requirements.txt")
 
 setuptools.setup(
     name="notion",
-    version="0.0.28",
+    version="0.0.28-1",
     author="Jamie Alexandre",
     author_email="jamalex+python@gmail.com",
     description="Unofficial Python API client for Notion.so",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/jamalex/notion-py",
+    url="https://github.com/da0ez/notion-py",
     install_requires=install_requires,
     include_package_data=True,
     packages=setuptools.find_packages(),
